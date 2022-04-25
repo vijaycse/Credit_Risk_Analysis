@@ -28,7 +28,7 @@ Using built in train and test method to split the data for training vs. testing,
   * The "High Risk" precision rate was only 1% with the recall at 69% giving this model an F1 score of 2%.
   * "Low Risk" had a precision rate of 100% and recall at 63%.  
   
-  ![oversample_result](https://github.com/vijaycse/Credit_Risk_Analysis/blob/main/Images/oversamplecm.png)
+  ![oversample_result](https://github.com/vijaycse/Credit_Risk_Analysis/blob/master/images/RandomOversamplingResult.png)
   
 
 **`SMOTE (Synthetic Minority Oversampling Technique) Model`**, like `RandomOverSampler` increases the size of the minority class by creating new values based on the value of the closest neighbors to the minority class instead of random selection. 
@@ -39,7 +39,7 @@ Using built in train and test method to split the data for training vs. testing,
   * "Low Risk" had a precision rate of 100% and an improved recall at 68%.  
 
   
-  ![smote_result](https://github.com/vijaycse/Credit_Risk_Analysis/blob/main/Images/SmoteClass.png)
+  ![smote_result](https://github.com/vijaycse/Credit_Risk_Analysis/blob/master/images/SMOTEOversamplingResult.png)
 
 ### Undersampling
 
@@ -51,7 +51,7 @@ Using built in train and test method to split the data for training vs. testing,
   * The "High Risk" precision rate again was only at 1% with the recall at 68% giving this model an F1 score of 1%.
   * "Low Risk" had a precision rate of 100% and with a lower recall at 41% compared to the oversampling models.  
 
-  ![under_result](https://github.com/vijaycse/Credit_Risk_Analysis/blob/main/Images/underclass.png)
+  ![under_sampling_result](https://github.com/vijaycse/Credit_Risk_Analysis/blob/master/images/UnderSampledResult.png)
 
 ## Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
 
@@ -65,7 +65,7 @@ Using built in train and test method to split the data for training vs. testing,
   * "Low Risk" still showed a precision rate of 100% with the recall at 58%.  
   
 
-  ![SMOTEENN_result](https://github.com/vijaycse/Credit_Risk_Analysis/blob/main/Images/SMOTEENNclass.png)
+  ![SMOTEENN_result](https://github.com/vijaycse/Credit_Risk_Analysis/blob/master/images/SMOTEENNCombinedResult.png)
 
 ## Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 
@@ -81,9 +81,9 @@ Compare two new `Machine Learning` models that reduce bias to predict credit ris
   * The top feature by importance was "total_rec_prncp" at 7.9% of the total.
 )
   
-  ![balance_result](https://github.com/vijaycse/Credit_Risk_Analysis/blob/main/Images/balancedclass.png)
+  ![balance_random_result](https://github.com/vijaycse/Credit_Risk_Analysis/blob/master/images/BalancedRandomForest_Result.png)
 
-  ![balancefeature](https://github.com/vijaycse/Credit_Risk_Analysis/blob/main/Images/BalancedFeature.png) 
+  ![balance_random_feature](https://github.com/vijaycse/Credit_Risk_Analysis/blob/master/images/BalanceRandomFeatureResult.png) 
 
 **`EasyEnsembleClassifier Model`**, a set of classifiers where individual decisions are combined to classify new examples.
 
@@ -94,7 +94,7 @@ Compare two new `Machine Learning` models that reduce bias to predict credit ris
   * "Low Risk" still had a precision rate of 100% with the recall now at 95%.  
 
   
-  ![easy_result](https://github.com/vijaycse/Credit_Risk_Analysis/blob/main/Images/Easyclass.png)
+  ![easy_ensemble_result](https://github.com/vijaycse/Credit_Risk_Analysis/blob/master/images/EasyEnsembleResult.png)
 
 # Summary
 
