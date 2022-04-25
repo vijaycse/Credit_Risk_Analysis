@@ -1,4 +1,3 @@
-![lendinglogo](https://github.com/vijaycse/Credit_Risk_Analysis/blob/main/Images/LendingClubLogo2.png)
 
 An analysis using Machine Learning algorithms to identify credit card risk using a dataset from LendingClub.
 
